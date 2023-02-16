@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Button } from '@mui/material';
 
 import reactLogo from './assets/react.svg';
@@ -25,7 +25,7 @@ function App() {
 						color: 'rgb(240, 165, 0)',
 						borderColor: 'rgb(240, 200, 0)',
 					}}
-					onClick={(event) => setCount((count) => count + 1)}
+					onClick={() => setCount((count) => count + 1)}
 				>
 					count is {count}
 				</Button>
