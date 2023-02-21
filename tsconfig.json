@@ -3,7 +3,9 @@
     "baseUrl": "./src",
     "paths": {
       "@shared/*": ["shared/*"],
-      "@img/*": ["assets/imgs/*"],
+      "@images/*": ["assets/images/*"],
+      "@pages/*": ["ui/pages/*"],
+      "@routes/*": ["ui/routes/*"],
       "@styles/*": ["styles/*"]
     },
     "target": "ESNext",
@@ -22,7 +24,7 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["src"],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.js", "src/**/*.jsx"],
   "exclude": ["node_modules", "dist", ".swc", "out", "build"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
