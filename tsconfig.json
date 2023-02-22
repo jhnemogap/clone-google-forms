@@ -4,6 +4,7 @@
     "paths": {
       "@shared/*": ["shared/*"],
       "@images/*": ["assets/images/*"],
+      "@layouts/*": ["ui/layouts/*"],
       "@pages/*": ["ui/pages/*"],
       "@routes/*": ["ui/routes/*"],
       "@styles/*": ["styles/*"]
