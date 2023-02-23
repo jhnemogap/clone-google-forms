@@ -5,6 +5,8 @@ import { HomePage } from '@pages/Home';
 import { BuilderPage } from '@pages/Builder';
 import { PreviewPage } from '@pages/Preview';
 
+import '@styles/css/index.css';
+
 const route = createBrowserRouter([
   {
     path: '/',
