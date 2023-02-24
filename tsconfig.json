@@ -5,7 +5,10 @@
       "@shared/*": ["shared/*"],
       "@images/*": ["assets/images/*"],
       "@layouts/*": ["ui/layouts/*"],
-      "@pages/*": ["ui/pages/*"],
+      "@modules/*": ["ui/modules/*"],
+      "@editor/*": ["ui/modules/editor/*"],
+      "@preview/*": ["ui/modules/preview/*"],
+      "@home/*": ["ui/modules/home/*"],
       "@routes/*": ["ui/routes/*"],
       "@styles/*": ["ui/styles/*"]
     },

@@ -1,6 +1,8 @@
 import { Box } from '@mui/material';
-import { Link, Outlet } from 'react-router-dom';
 import { grey } from '@mui/material/colors';
+import { Link, Outlet } from 'react-router-dom';
+
+import { ROUTES } from '@routes/routes';
 
 export function MainLayout() {
   return (
@@ -16,7 +18,7 @@ export function MainLayout() {
           backgroundColor: grey[50],
         }}
       >
-        <Link to='/'>GO TO HOME</Link>
+        <Link to={ROUTES.root}>GO TO HOME</Link>
       </Box>
 
       <Outlet />

@@ -1,7 +1,7 @@
 import { Box } from '@mui/material';
 import { blue } from '@mui/material/colors';
 
-export function BuilderPage() {
+export function EditorPage() {
   return (
     <Box
       sx={{
