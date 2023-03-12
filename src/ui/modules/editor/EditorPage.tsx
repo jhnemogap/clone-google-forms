@@ -1,21 +1,13 @@
 import { Box } from '@mui/material';
 import { blue } from '@mui/material/colors';
 
+import { EditorHeader, FormBuilder } from '@editor/components';
+
 export function EditorPage() {
   return (
-    <Box
-      sx={{
-        minHeight: 'calc(100vh - 2rem)',
-        padding: '1rem 1rem 2rem',
-        backgroundColor: blue[200],
-      }}
-    >
-      <Box component='header'>
-        HEADER BUILDER
-      </Box>
-      <Box component='main'>
-        {Array(10).fill('MAIN BUILDER').map((v) => <p>{v}</p>)}
-      </Box>
+    <Box component='main' minHeight='calc(100vh - 5.5rem)' py='1rem' bgcolor={blue[50]}>
+      <EditorHeader />
+      <FormBuilder />
     </Box>
   );
 }

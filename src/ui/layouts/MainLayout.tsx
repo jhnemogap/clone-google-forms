@@ -13,7 +13,7 @@ export function MainLayout() {
           position: 'sticky',
           top: 0,
           minHeight: '2rem',
-          padding: '1rem',
+          padding: '1rem 1rem 0.5rem',
           borderBottom: '1px solid black',
           backgroundColor: grey[50],
         }}

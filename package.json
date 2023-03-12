@@ -8,9 +8,9 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "clean": "rm -rf dist build",
-    "lint": "eslint . --ext .ts,.tsx",
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
     "prettier:check": "prettier --check ./src",
-    "prettier:write": "prettier --write ./src"
+    "prettier:write": "prettier --write --cache ./src"
   },
   "dependencies": {
     "@fontsource/roboto": "4.5.8",
@@ -24,8 +24,8 @@
     "@mui/material": "5.11.8",
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",
-    "@typescript-eslint/eslint-plugin": "5.52.0",
-    "@typescript-eslint/parser": "5.52.0",
+    "@typescript-eslint/eslint-plugin": "5.54.1",
+    "@typescript-eslint/parser": "5.54.1",
     "@vitejs/plugin-react": "3.1.0",
     "eslint": "8.34.0",
     "eslint-config-prettier": "8.6.0",

@@ -3,4 +3,4 @@ export const ROUTES = {
   home: '/',
   builder: '/editor',
   preview: '/preview',
-}
+};
